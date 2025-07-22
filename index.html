@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dirty Wings | Get Dirty. Stay Saucy.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Bebas Neue', sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+    header {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      height: 100px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      background-color: #222;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #ff0000;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #ff0000;
+    }
+    .menu-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .menu-table th, .menu-table td {
+      border: 1px solid #555;
+      padding: 10px;
+      text-align: left;
+    }
+    .menu-table th {
+      background-color: #222;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      background: #111;
+      color: #fff;
+      border: 1px solid #444;
+    }
+    form button {
+      padding: 10px 20px;
+      background-color: #ff0000;
+      border: none;
+      color: #fff;
+      font-size: 16px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Dirty Wings Logo">
+    <h1>Dirty Wings</h1>
+    <p>Get Dirty. Stay Saucy.</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Welcome to Dirty Wings, Lisbon’s ultimate destination for mouthwatering chicken wings, juicy burgers, cheesy fries, and decadent desserts. Whether you like it hot, sweet, tangy, or smoky – we’ve got a flavor that’ll blow your mind!</p>
+    <p>Find us at R. Cavaleiro De Oliveira 47B | 📞 926062484 | 📸 @dirtywings.pt</p>
+  </section>
+
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <h3>Wings Baskets</h3>
+    <table class="menu-table">
+      <tr><th>Size</th><th>Wings</th><th>Price</th></tr>
+      <tr><td>Small</td><td>6 Wings</td><td>€5.99</td></tr>
+      <tr><td>Medium</td><td>10 Wings (2 Sauces)</td><td>€7.99</td></tr>
+      <tr><td>Large</td><td>14 Wings (3 Sauces)</td><td>€10.99</td></tr>
+    </table>
+    <h3>Sauces</h3>
+    <p>Parmesan Garlic, Mango Habanero 🌶️, Scorched Soul 🌶️🌶️🌶️, Molten Lava, Honey BBQ, Asian Zing, Teriyaki, Orange Chicken, BBQ, Buffalo Ranch, Tandoori, Buffalo Sauce. Dry Rubs: Lemon Pepper, Cajun Dust, Dirty Wings Special.</p>
+    <h3>Burgers</h3>
+    <p>Classic (€6.90), Dirty Wings Special (€7.90), Truffle Luxe (€9.90), Chicken Burger (€7.50), Veg Burger (€7.50) — All come with fries.</p>
+    <h3>Fries & Kids</h3>
+    <p>Fries (€2.50–€4.99), Kids Nuggets (€3.50), Kids Burger (€4.50)</p>
+    <h3>Desserts</h3>
+    <p>Chocolate Mousse, Donut Holes, Soft Baked Cookies, Ice Cream (€2.49–€4.99)</p>
+    <h3>Salads</h3>
+    <p>Caesar Salad, Greek Salad</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form action="https://formspree.io/f/moqgdzzp" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p>📍 R. Cavaleiro De Oliveira 47B | 📞 926062484</p>
+    <p>Follow us on Instagram: <a href="https://instagram.com/dirtywings.pt" style="color: #ff0000">@dirtywings.pt</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Dirty Wings. All rights reserved.</p>
+  </footer>
+</body>
+</html>
